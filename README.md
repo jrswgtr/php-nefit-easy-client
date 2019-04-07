@@ -34,7 +34,7 @@ $stateManager = new StateManager(
 );
 
 $tempRoomMan = $stateManager->read( TemperatureRoomManual::class );
-$tempRoomMan->setValue( 16.5 );
+$tempRoomMan->setValue( 19.5 );
 $stateManager->write( $tempRoomMan );
 ```
 
