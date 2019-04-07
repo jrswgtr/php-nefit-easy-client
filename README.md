@@ -1,19 +1,19 @@
-#Nefit Easy™ PHP client
+# Nefit Easy™ PHP client
 A PHP client package written for ```robertklep/nefit-easy-http-server```, which is meant to be running at the same machine.
 
 Before using this package, please proceed to follow the [instructions to install robertklep/nefit-easy-http-server](https://github.com/robertklep/nefit-easy-http-server).
 
-##Dependencies
+## Dependencies
 This package needs a minimum version of PHP 7.2, php-curl and php-json. There are no 3rd party dependencies.
 
-##Installation
+## Installation
 To add this package to you project, execute:
 
 ```bash
 $ composer require jrswgtr/php-nefit-easy-client
 ```
 
-##Basic usage
+## Basic usage
 
 To read and write ```Wagter\NefitEasyClient\State\State``` objects from and to the Nefit Easy server you'll need a ```Wagter\NefitEasyClient\StateManager\StateMangerInterface``` instance. The default  ```StateMangerInterface``` implementation is ```Wagter\NefitEasyClient\StateManager\StateManger```.
 
