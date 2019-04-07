@@ -1,0 +1,2397 @@
+{
+    "/ecus/rrc/recordings/gasusagePointer": {
+        "id": "/ecus/rrc/recordings/gasusagePointer",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": 1755,
+        "unitOfMeasure": "",
+        "minValue": 1,
+        "maxValue": 6400
+    },
+    "/ecus/rrc/recordings/yearTotal": {
+        "id": "/ecus/rrc/recordings/yearTotal",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": 5454.8,
+        "unitOfMeasure": "kWh",
+        "minValue": 0,
+        "maxValue": 429496729.5
+    },
+    "/system/sensors/temperatures/outdoor_t1": {
+        "id": "/system/sensors/temperatures/outdoor_t1",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": 21,
+        "unitOfMeasure": "C",
+        "minValue": -40,
+        "maxValue": 50,
+        "status": "ok",
+        "srcType": "virtual",
+        "timestamp": "2019-04-07T16:41:55"
+    },
+    "/system/location/latitude": {
+        "id": "/system/location/latitude",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "51.824782"
+    },
+    "/system/location/longitude": {
+        "id": "/system/location/longitude",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "6.0648521"
+    },
+    "/dhwCircuits/dhwA/extraDhw/supported": {
+        "id": "/dhwCircuits/dhwA/extraDhw/supported",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "true"
+    },
+    "/dhwCircuits/dhwA/extraDhw/duration": {
+        "id": "/dhwCircuits/dhwA/extraDhw/duration",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 20,
+        "unitOfMeasure": "Min",
+        "minValue": 5,
+        "maxValue": 60
+    },
+    "/dhwCircuits/dhwA/extraDhw/status": {
+        "id": "/dhwCircuits/dhwA/extraDhw/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/dhwCircuits/dhwA/dhwCurrentSwitchpoint": {
+        "id": "/dhwCircuits/dhwA/dhwCurrentSwitchpoint",
+        "type": "DhwProgram",
+        "recordable": 0,
+        "writeable": 0,
+        "value": [
+            {
+                "d": "Su",
+                "t": 450,
+                "active": "on",
+                "dhw": "on"
+            }
+        ]
+    },
+    "/dhwCircuits/dhwA/dhwNextSwitchpoint": {
+        "id": "/dhwCircuits/dhwA/dhwNextSwitchpoint",
+        "type": "DhwProgram",
+        "recordable": 0,
+        "writeable": 0,
+        "value": []
+    },
+    "/dhwCircuits/dhwA/dhwOffDuringAbsence": {
+        "id": "/dhwCircuits/dhwA/dhwOffDuringAbsence",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "true"
+    },
+    "/dhwCircuits/dhwA/dhwOffDuringNight": {
+        "id": "/system/location/latitude",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "52.847782"
+    },
+    "/dhwCircuits/dhwA/dhwOperationManualMode": {
+        "id": "/dhwCircuits/dhwA/dhwOperationManualMode",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "on"
+    },
+    "/dhwCircuits/dhwA/dhwOperationMode": {
+        "id": "/dhwCircuits/dhwA/dhwOperationMode",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "eco"
+    },
+    "/dhwCircuits/dhwA/dhwOperationType": {
+        "id": "/dhwCircuits/dhwA/dhwOperationType",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "follow ch"
+    },
+    "/dhwCircuits/dhwA/dhwProgram0": {
+        "id": "/dhwCircuits/dhwA/dhwProgram0",
+        "type": "DhwProgram",
+        "recordable": 0,
+        "writeable": 1,
+        "value": [
+            {
+                "d": "Su",
+                "t": 480,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Su",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Mo",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Mo",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Tu",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Tu",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "We",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "We",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Th",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Th",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Fr",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Fr",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 480,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Sa",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            }
+        ]
+    },
+    "/dhwCircuits/dhwA/dhwProgram1": {
+        "id": "/dhwCircuits/dhwA/dhwProgram1",
+        "type": "DhwProgram",
+        "recordable": 0,
+        "writeable": 1,
+        "value": [
+            {
+                "d": "Su",
+                "t": 480,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Su",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Mo",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Mo",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Tu",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Tu",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "We",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "We",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Th",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Th",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Fr",
+                "t": 540,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 1020,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Fr",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 480,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Sa",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            }
+        ]
+    },
+    "/dhwCircuits/dhwA/dhwProgram2": {
+        "id": "/dhwCircuits/dhwA/dhwProgram2",
+        "type": "DhwProgram",
+        "recordable": 0,
+        "writeable": 1,
+        "value": [
+            {
+                "d": "Su",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Su",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Mo",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Tu",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "We",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Th",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Fr",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 420,
+                "active": "on",
+                "dhw": "on"
+            },
+            {
+                "d": "Sa",
+                "t": 1380,
+                "active": "on",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "active": "off",
+                "dhw": "off"
+            }
+        ]
+    },
+    "/dhwCircuits/dhwA/hotWaterSystem": {
+        "id": "/dhwCircuits/dhwA/hotWaterSystem",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": 1,
+        "unitOfMeasure": "",
+        "minValue": 0,
+        "maxValue": 4
+    },
+    "/dhwCircuits/dhwA/thermaldesinfect/lastresult": {
+        "id": "/dhwCircuits/dhwA/thermaldesinfect/lastresult",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "Done"
+    },
+    "/dhwCircuits/dhwA/thermaldesinfect/state": {
+        "id": "/dhwCircuits/dhwA/thermaldesinfect/state",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/dhwCircuits/dhwA/thermaldesinfect/time": {
+        "id": "/dhwCircuits/dhwA/thermaldesinfect/time",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 60,
+        "unitOfMeasure": "Min",
+        "minValue": 0,
+        "maxValue": 1440
+    },
+    "/dhwCircuits/dhwA/thermaldesinfect/weekday": {
+        "id": "/dhwCircuits/dhwA/thermaldesinfect/weekday",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "Mo"
+    },
+    "/ecus/rrc/installerdetails": {
+        "id": "/ecus/rrc/installerdetails",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": ";;;"
+    },
+    "/ecus/rrc/lockuserinterface": {
+        "id": "/ecus/rrc/lockuserinterface",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "false"
+    },
+    "/ecus/rrc/personaldetails": {
+        "id": "/ecus/rrc/personaldetails",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "Norsje;0000000000;jrswgtr@gmail.com"
+    },
+    "/ecus/rrc/pirSensitivity": {
+        "id": "/ecus/rrc/pirSensitivity",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "disable"
+    },
+    "/ecus/rrc/pm/closingvalve/status": {
+        "id": "/ecus/rrc/pm/closingvalve/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "false",
+        "timestamp": "2000-01-01T00:00:00"
+    },
+    "/ecus/rrc/pm/ignition/status": {
+        "id": "/ecus/rrc/pm/ignition/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "false",
+        "timestamp": "2000-01-01T00:00:00"
+    },
+    "/ecus/rrc/pm/refillneeded/status": {
+        "id": "/ecus/rrc/pm/refillneeded/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "false",
+        "timestamp": "2000-01-01T00:00:00"
+    },
+    "/ecus/rrc/pm/shorttapping/status": {
+        "id": "/ecus/rrc/pm/shorttapping/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "false",
+        "timestamp": "2000-01-01T00:00:00"
+    },
+    "/ecus/rrc/pm/systemleaking/status": {
+        "id": "/ecus/rrc/pm/systemleaking/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "false",
+        "timestamp": "2000-01-01T00:00:00"
+    },
+    "/ecus/rrc/selflearning/learnedprogram": {
+        "id": "/ecus/rrc/selflearning/learnedprogram",
+        "type": "LearnedProgram",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4"
+    },
+    "/ecus/rrc/selflearning/nextSwitchpoint": {
+        "id": "/ecus/rrc/selflearning/nextSwitchpoint",
+        "type": "switchpoint",
+        "recordable": 0,
+        "writeable": 1,
+        "value": {
+            "d": "Su",
+            "t": 0,
+            "T": 5
+        }
+    },
+    "/ecus/rrc/selflearning/nextSwitchpointEndtime": {
+        "id": "/ecus/rrc/selflearning/nextSwitchpointEndtime",
+        "type": "switchpoint",
+        "recordable": 0,
+        "writeable": 0,
+        "value": {
+            "d": "Su",
+            "t": 0,
+            "T": 5
+        }
+    },
+    "/ecus/rrc/temperaturestep": {
+        "id": "/ecus/rrc/temperaturestep",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "0.1"
+    },
+    "/ecus/rrc/uiStatus": {
+        "id": "/ecus/rrc/uiStatus",
+        "type": "uiUpdate",
+        "recordable": 0,
+        "writeable": 0,
+        "value": {
+            "CTD": "2019-04-07T16:39:18+01:00 Su",
+            "CTR": "room",
+            "UMD": "manual",
+            "MMT": "16.5",
+            "CPM": "auto",
+            "CSP": "0",
+            "TOR": "off",
+            "TOD": "0",
+            "TOT": "17.0",
+            "TSP": "16.5",
+            "IHT": "20.20",
+            "IHS": "ok",
+            "DAS": "off",
+            "TAS": "off",
+            "HMD": "off",
+            "ARS": "init",
+            "FPA": "off",
+            "ESI": "on",
+            "BAI": "No",
+            "BLE": "false",
+            "BBE": "false",
+            "BMR": "false",
+            "PMR": "false",
+            "RS": "off",
+            "DHW": "on",
+            "HED_EN": "false",
+            "HED_DEV": "false",
+            "FAH": "false",
+            "DOT": "false",
+            "HED_DB": ""
+        }
+    },
+    "/ecus/rrc/userprogram/activeprogram": {
+        "id": "/ecus/rrc/userprogram/activeprogram",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 0,
+        "unitOfMeasure": "",
+        "minValue": 0,
+        "maxValue": 2
+    },
+    "/ecus/rrc/userprogram/fireplacefunction": {
+        "id": "/ecus/rrc/userprogram/fireplacefunction",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/ecus/rrc/userprogram/preheating": {
+        "id": "/ecus/rrc/userprogram/preheating",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/ecus/rrc/userprogram/program0": {
+        "id": "/ecus/rrc/userprogram/program0",
+        "type": "UserProgram",
+        "recordable": 0,
+        "writeable": 1,
+        "value": [
+            {
+                "d": "Su",
+                "t": 450,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Su",
+                "t": 1380,
+                "T": 16.5,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 375,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Mo",
+                "t": 480,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Mo",
+                "t": 1050,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Mo",
+                "t": 1380,
+                "T": 16.5,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 405,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Tu",
+                "t": 480,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Tu",
+                "t": 1050,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Tu",
+                "t": 1380,
+                "T": 16.5,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 405,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "We",
+                "t": 480,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "We",
+                "t": 1050,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "We",
+                "t": 1380,
+                "T": 16.5,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 405,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Th",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Th",
+                "t": 1050,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Th",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 405,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Fr",
+                "t": 480,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Fr",
+                "t": 1050,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Fr",
+                "t": 1380,
+                "T": 16.5,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 510,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Sa",
+                "t": 1380,
+                "T": 16.5,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            }
+        ]
+    },
+    "/ecus/rrc/userprogram/program1": {
+        "id": "/ecus/rrc/userprogram/program1",
+        "type": "UserProgram",
+        "recordable": 0,
+        "writeable": 1,
+        "value": [
+            {
+                "d": "Su",
+                "t": 480,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Mo",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Mo",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Mo",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Tu",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Tu",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Tu",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "We",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "We",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "We",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Th",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Th",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Th",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Fr",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Fr",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Fr",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 480,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            }
+        ]
+    },
+    "/ecus/rrc/userprogram/program2": {
+        "id": "/ecus/rrc/userprogram/program2",
+        "type": "UserProgram",
+        "recordable": 0,
+        "writeable": 1,
+        "value": [
+            {
+                "d": "Su",
+                "t": 480,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Su",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Mo",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Mo",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Mo",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Mo",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Tu",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Tu",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Tu",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Tu",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "We",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "We",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "We",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "We",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Th",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Th",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Th",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Th",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 420,
+                "T": 19,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Fr",
+                "t": 540,
+                "T": 17,
+                "active": "on",
+                "name": 2
+            },
+            {
+                "d": "Fr",
+                "t": 1020,
+                "T": 20,
+                "active": "on",
+                "name": 3
+            },
+            {
+                "d": "Fr",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Fr",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 480,
+                "T": 20,
+                "active": "on",
+                "name": 1
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 1380,
+                "T": 15,
+                "active": "on",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            },
+            {
+                "d": "Sa",
+                "t": 0,
+                "T": 5,
+                "active": "off",
+                "name": 0
+            }
+        ]
+    },
+    "/ecus/rrc/userprogram/userswitchpointname1": {
+        "id": "/ecus/rrc/userprogram/userswitchpointname1",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "Andere periode 1"
+    },
+    "/ecus/rrc/userprogram/userswitchpointname2": {
+        "id": "/ecus/rrc/userprogram/userswitchpointname2",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "Andere periode 2"
+    },
+    "/ecus/rrc/weatherDependent/basePointSupply": {
+        "id": "/ecus/rrc/weatherDependent/basePointSupply",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 20,
+        "unitOfMeasure": "C",
+        "minValue": 20,
+        "maxValue": 90
+    },
+    "/ecus/rrc/weatherDependent/endPointSupply": {
+        "id": "/ecus/rrc/weatherDependent/endPointSupply",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 75,
+        "unitOfMeasure": "C",
+        "minValue": 25,
+        "maxValue": 90
+    },
+    "/ecus/rrc/weatherDependent/forcedSwitchedOff": {
+        "id": "/ecus/rrc/weatherDependent/forcedSwitchedOff",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/ecus/rrc/weatherDependent/maxSupply": {
+        "id": "/ecus/rrc/weatherDependent/maxSupply",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 90,
+        "unitOfMeasure": "C",
+        "minValue": 25,
+        "maxValue": 90
+    },
+    "/ecus/rrc/weatherDependent/minSupply": {
+        "id": "/ecus/rrc/weatherDependent/minSupply",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 20,
+        "unitOfMeasure": "C",
+        "minValue": 10,
+        "maxValue": 90
+    },
+    "/ecus/rrc/weatherDependent/nightSwitchOff": {
+        "id": "/ecus/rrc/weatherDependent/nightSwitchOff",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "keep on heating"
+    },
+    "/ecus/rrc/weatherDependent/roomInfluence": {
+        "id": "/ecus/rrc/weatherDependent/roomInfluence",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 0,
+        "unitOfMeasure": "",
+        "minValue": 0,
+        "maxValue": 3
+    },
+    "/ecus/rrc/weatherDependent/summerSwitchOff": {
+        "id": "/ecus/rrc/weatherDependent/summerSwitchOff",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 16,
+        "unitOfMeasure": "C",
+        "minValue": 10,
+        "maxValue": 30
+    },
+    "/gateway/brandID": {
+        "id": "/gateway/brandID",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "0x0"
+    },
+    "/gateway/remote/installername": {
+        "id": "/gateway/remote/installername",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": ""
+    },
+    "/gateway/remote/servicestate": {
+        "id": "/gateway/remote/servicestate",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "Remote service requested"
+    },
+    "/gateway/remote/sid": {
+        "id": "/gateway/remote/sid",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": ""
+    },
+    "/gateway/remote/sidexptime": {
+        "id": "/gateway/remote/sidexptime",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "1970-01-01T00:00:00"
+    },
+    "/gateway/remote/tempsid": {
+        "id": "/gateway/remote/tempsid",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "B8A9A1"
+    },
+    "/gateway/remote/tempsidexptime": {
+        "id": "/gateway/remote/tempsidexptime",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "2019-04-14T13:44:07"
+    },
+    "/gateway/serialnumber": {
+        "id": "/gateway/serialnumber",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "37203110106217746901786"
+    },
+    "/gateway/time/timezone": {
+        "id": "/gateway/time/timezone",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "Europe/Amsterdam"
+    },
+    "/gateway/update/strategy": {
+        "id": "/gateway/update/strategy",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "automatic"
+    },
+    "/gateway/uuid": {
+        "id": "/gateway/uuid",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "311010621"
+    },
+    "/gateway/versionFirmware": {
+        "id": "/gateway/versionFirmware",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "02.19.01"
+    },
+    "/gateway/versionHardware": {
+        "id": "/gateway/versionHardware",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "2"
+    },
+    "/heatingCircuits/hc1/actualSupplyTemperature": {
+        "id": "/heatingCircuits/hc1/actualSupplyTemperature",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": 42.8,
+        "unitOfMeasure": "C",
+        "minValue": 0,
+        "maxValue": 100
+    },
+    "/heatingCircuits/hc1/control": {
+        "id": "/heatingCircuits/hc1/control",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "room"
+    },
+    "/heatingCircuits/hc1/holidayMode/activated": {
+        "id": "/heatingCircuits/hc1/holidayMode/activated",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/heatingCircuits/hc1/holidayMode/end": {
+        "id": "/heatingCircuits/hc1/holidayMode/end",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "2000-01-01T00:00:00"
+    },
+    "/heatingCircuits/hc1/holidayMode/start": {
+        "id": "/heatingCircuits/hc1/holidayMode/start",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "2000-01-01T00:00:00"
+    },
+    "/heatingCircuits/hc1/holidayMode/status": {
+        "id": "/heatingCircuits/hc1/holidayMode/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/heatingCircuits/hc1/holidayMode/temperature": {
+        "id": "/heatingCircuits/hc1/holidayMode/temperature",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 10,
+        "unitOfMeasure": "C",
+        "minValue": 5,
+        "maxValue": 30
+    },
+    "/heatingCircuits/hc1/manualTempOverride/status": {
+        "id": "/heatingCircuits/hc1/manualTempOverride/status",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "off"
+    },
+    "/heatingCircuits/hc1/manualTempOverride/temperature": {
+        "id": "/heatingCircuits/hc1/manualTempOverride/temperature",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 17,
+        "unitOfMeasure": "C",
+        "minValue": 5,
+        "maxValue": 30
+    },
+    "/heatingCircuits/hc1/operationMode": {
+        "id": "/heatingCircuits/hc1/operationMode",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "auto"
+    },
+    "/heatingCircuits/hc1/temperatureAdjustment": {
+        "id": "/heatingCircuits/hc1/temperatureAdjustment",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 0,
+        "unitOfMeasure": "C",
+        "minValue": -2,
+        "maxValue": 2
+    },
+    "/heatingCircuits/hc1/temperatureRoomManual": {
+        "id": "/heatingCircuits/hc1/temperatureRoomManual",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": 16.5,
+        "unitOfMeasure": "C",
+        "minValue": 5,
+        "maxValue": 30
+    },
+    "/heatingCircuits/hc1/type": {
+        "id": "/heatingCircuits/hc1/type",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "radiator"
+    },
+    "/heatingCircuits/hc1/usermode": {
+        "id": "/heatingCircuits/hc1/usermode",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 1,
+        "value": "manual"
+    },
+    "/notifications": {
+        "id": "/notifications",
+        "type": "errorList",
+        "recordable": 0,
+        "writeable": 0,
+        "values": []
+    },
+    "/system/appliance/boilermaintenancerequest": {
+        "id": "/system/appliance/boilermaintenancerequest",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "false"
+    },
+    "/system/appliance/causecode": {
+        "id": "/system/appliance/causecode",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": 203,
+        "unitOfMeasure": "",
+        "minValue": 200,
+        "maxValue": 65535
+    },
+    "/system/appliance/cm/type": {
+        "id": "/system/appliance/cm/type",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "0x0444"
+    },
+    "/system/appliance/cm/version": {
+        "id": "/system/appliance/cm/version",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "15"
+    },
+    "/system/appliance/displaycode": {
+        "id": "/system/appliance/displaycode",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "0H"
+    },
+    "/system/appliance/serialnumber": {
+        "id": "/system/appliance/serialnumber",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": " 3290-417-000105-7746900029"
+    },
+    "/system/appliance/systemPressure": {
+        "id": "/system/appliance/systemPressure",
+        "type": "floatValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": 1.5,
+        "unitOfMeasure": "bar",
+        "minValue": 0,
+        "maxValue": 25
+    },
+    "/system/appliance/type": {
+        "id": "/system/appliance/type",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "0x7A"
+    },
+    "/system/appliance/version": {
+        "id": "/system/appliance/version",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "3.9"
+    },
+    "/system/interfaces/ems/brandbit": {
+        "id": "/system/interfaces/ems/brandbit",
+        "type": "stringValue",
+        "recordable": 0,
+        "writeable": 0,
+        "value": "Buderus"
+    }
+}

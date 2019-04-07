@@ -1,0 +1,22 @@
+{
+    "name": "wagter/php-nefit-easy-client",
+    "description": "A PHP client package to communicate with nefit-easy-server",
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Joris Wagter",
+            "email": "jrswgtr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "Wagter\\NefitEasyClient\\": "src/"
+        }
+    } 
+}
