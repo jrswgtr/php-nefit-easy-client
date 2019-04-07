@@ -10,7 +10,7 @@ This package needs a minimum version of PHP 7.2, php-curl and php-json. There ar
 To add this package to you project, execute:
 
 ```bash
-$ composer require jrswgtr/php-nefit-easy-client
+$ composer require wagter/php-nefit-easy-client
 ```
 
 ## Basic usage
