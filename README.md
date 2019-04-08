@@ -7,7 +7,7 @@ If you not already did, please proceed to follow the [instructions to install ro
 This package needs a minimum version of PHP 7.2, php-curl and php-json. Except for off course a,  ```robertklep/nefit-easy-http-server``` installation, there are no 3rd party dependencies.
 
 ## Installation
-To add this package to you project, execute:
+Add to your project
 
 ```bash
 $ composer require wagter/php-nefit-easy-client
@@ -52,8 +52,9 @@ $ git clone git@github.com:jrswgtr/php-nefit-easy-client.git
 $ cd php-nefit-easy-client
 $ composer install
 ```
-### Start PHP's built-in web server and run the test
+### Start PHP's built-in web server
 ```bash
 $ php -S localhost:8000
 ```
-Run the test in your browser by visiting [http://127.0.0.1:8000/test.php](http://127.0.0.1:8000/test.php).
+### Run the test
+Visit [http://127.0.0.1:8000/test.php](http://127.0.0.1:8000/test.php) in your browser.
