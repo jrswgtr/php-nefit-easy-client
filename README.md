@@ -1,10 +1,10 @@
 # Nefit Easy™ PHP client
-A PHP client package written for ```robertklep/nefit-easy-http-server```, which is meant to be running at the same machine.
+A PHP client package written for ```robertklep/nefit-easy-http-server```, which is meant to be running at the same machine, or at least in the same network.
 
-Before using this package, please proceed to follow the [instructions to install robertklep/nefit-easy-http-server](https://github.com/robertklep/nefit-easy-http-server).
+If you not already did, please proceed to follow the [instructions to install robertklep/nefit-easy-http-server](https://github.com/robertklep/nefit-easy-http-server).
 
 ## Dependencies
-This package needs a minimum version of PHP 7.2, php-curl and php-json. There are no 3rd party dependencies.
+This package needs a minimum version of PHP 7.2, php-curl and php-json. Except for off course a,  ```robertklep/nefit-easy-http-server``` installation, there are no 3rd party dependencies.
 
 ## Installation
 To add this package to you project, execute:
@@ -15,9 +15,15 @@ $ composer require wagter/php-nefit-easy-client
 
 ## Basic usage
 
-To read and write ```Wagter\NefitEasyClient\State\State``` objects from and to the Nefit Easy server you'll need a ```Wagter\NefitEasyClient\StateManager\StateMangerInterface``` instance. The default  ```StateMangerInterface``` implementation is ```Wagter\NefitEasyClient\StateManager\StateManger```.
+To read and write ```Wagter\NefitEasyClient\State\State``` objects from and to the Nefit Easy server you will need a ```Wagter\NefitEasyClient\StateManager\StateMangerInterface``` instance. 
 
-The ```StateManager``` class has two dependencies. A ```Wagter\NefitEasyClient\Client\HttpClient``` instance to load the data from the ```nefit-easy-http-server``` installation. And a ```Wagter\NefitEasyClient\Normalizer\Normalizer``` instance to normalize and denormalize the requested objects.
+The default  ```StateMangerInterface``` implementation is ```Wagter\NefitEasyClient\StateManager\StateManger```.
+
+The ```StateManager``` class has two dependencies. 
+
+ 1. A ```Wagter\NefitEasyClient\Client\HttpClient``` instance to load the data from the ```nefit-easy-http-server``` installation. 
+
+ 2. A ```Wagter\NefitEasyClient\Normalizer\Normalizer``` instance to normalize and denormalize the requested objects.
 
 ### Example
 Let's say you want to adjust the manual room temperature to 19.5 degrees Celsius
